@@ -1,0 +1,21 @@
+!config the switch with the security 
+en
+conf t
+int range fa 0/1-3
+switchport mode trunk 
+
+exit 
+
+int range fa 0/3-24
+switchport mode access
+switchport access vlan 120 
+switchport port-security 
+switchport port-security maximum 2
+switchport port-security mac-address sticky 
+switchport port-security violation shutdown
+do sh port 
+exit 
+end 
+sh vlan bri 
+sh int trunk 
+

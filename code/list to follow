@@ -1,0 +1,14 @@
+=========LIST TO FOLLOW =======================
+
+
+1.Basic setting to all devices plus ssh on The routers and 13 switches 
+2. VLAN assignment + all access and trunk ports 
+3. Switchport security to all 12 switches 
+4. subnetting and IP addresing 
+5. OSPF on the routers and 13 switches 
+6. Static ip address to the serverRoom devices 
+7. DHCP server device configuration 
+8. Inter VLAN routing on the 13 switches + IP dhcp helper address 
+9. wireless netowrk configuration 
+10. verfying and testing configurations 
+

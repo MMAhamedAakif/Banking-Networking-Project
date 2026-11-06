@@ -1,0 +1,34 @@
+
+en 
+conf t
+no ip domain-lookup 
+hostname F1-13MSW
+banner motd #This is 16 MULTYswitch #
+
+line console 0
+password cisco 
+login 
+exit 
+
+line vty 0 15 
+password cisco 
+login
+exit 
+
+enable password cisco
+service password-encryption
+
+ip domain-name cisco.net 
+username cisco password cisco 
+crypto key generate rsa 
+1024
+
+line vty 0 15 
+login local 
+transport input ssh 
+
+exit 
+
+
+service password-encryption 
+do wr
