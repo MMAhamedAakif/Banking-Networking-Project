@@ -3,7 +3,8 @@
 ### Multi-Floor Enterprise Network Infrastructure | Cisco Packet Tracer
 
 ## 📌 Project Overview
-<img width="2638" height="2114" alt="P8" src="https://github.com/user-attachments/assets/1d219c89-b1f2-48fb-bbf4-2574d3b048d5" />
+<img width="2799" height="1625" alt="proof 2" src="https://github.com/user-attachments/assets/838be7c0-74cb-4e1c-8be7-33ba2516935d" />
+
 
 
 This project focuses on designing and implementing a multi-floor enterprise network infrastructure for a Banking and Insurance organization using Cisco Packet Tracer.
